@@ -52,6 +52,7 @@ class AI:
             
                 
         return self.cards.pop(prob.index(min(prob)))
+
     def Xscore(self,data):
         sum1 = []
         for i in range(4):
